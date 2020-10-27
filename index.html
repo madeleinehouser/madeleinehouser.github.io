@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Color Theory</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        #name {text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Color Theory</h1>
+    <p id="date"></p>
+    <ul>
+        <!-- <li class="list">Edit the head</li>
+        <li class="list">Edit the body</li>
+        <li>Link to JavaScript</li> -->
+    </ul>
+
+    <!-- Circles -->
+    <div style="text-align: center;">
+        <div id="CMYCircles">
+        <span class="dot" id="Cyan"></span>
+        &nbsp;
+        <span class="dot" id="Magenta"></span>
+        &nbsp;
+        <span class="dot" id="Yellow"></span>
+        <div>
+    </div>
+    <br> 
+    <div style="text-align: center;">
+        <div id="RGBCircles">
+        <span class="dot" id="Red"></span>
+        &nbsp;
+        <span class="dot" id="Green"></span>
+        &nbsp;
+        <span class="dot" id="Blue"></span>
+        <br> <br>
+        <div>
+    </div>
+
+    <!-- Buttons -->
+    <br>
+    Choose a topic to learn about:
+    <div id="myButtons">
+         <br>
+        <button id="Button1" type="button" value="CMY Primaries" onclick="CMYFunction()">CMY Primaries</button>
+        <br> <br>
+        <button id="Button2" type="button" value="RGB Secondaries" onclick="RGBFunction()">RGB Secondaries</button>
+        <br> <br>
+        <button id="Button3" type="button" value="Tertiary Colors" onclick="TertiaryFunction()">Tertiary Colors</button>
+        <br> <br>
+        <button id="Button4" type="button" value="Complements" onclick="CompFunction()">Complements</button>
+        <br> <br>
+        <button id="Button5" type="button" value="Split Complements" onclick="SplitFunction()">Split Complements</button>
+        <br> <br>
+        <button id="Button6" type="button" value="Analogous" onclick="AnaFunction()">Analogous</button>
+        
+    </div>
+
+    <div id="CMY">
+        <img src='/Users/madeleinehouser/Documents/ART/cmy.jpg' />
+    </div>
+    <div id="RGB">
+        <img src='/Users/madeleinehouser/Documents/ART/rgb.jpg' />
+    </div>
+    <div id="Tertiary">
+        <img src='/Users/madeleinehouser/Documents/ART/tertiary.jpg' />
+    </div>
+    <div id="Complements">
+        <img src='/Users/madeleinehouser/Documents/ART/Complements.jpg' />
+    </div>
+    <div id="Split">
+        <img src='/Users/madeleinehouser/Documents/ART/Split.jpg' />
+    </div>
+    <div id="Analogous">
+        <img src='/Users/madeleinehouser/Documents/ART/Analogous.jpg' />
+    </div>
+
+    <script>
+        function CMYFunction() {
+        var x = document.getElementById("CMY");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <script>
+        function RGBFunction() {
+        var x = document.getElementById("RGB");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+        <script>
+        function TertiaryFunction() {
+        var x = document.getElementById("Tertiary");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <script>
+        function CompFunction() {
+        var x = document.getElementById("Complements");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <script>
+        function SplitFunction() {
+        var x = document.getElementById("Split");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <script>
+        function AnaFunction() {
+        var x = document.getElementById("Analogous");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+    <div id="name">
+        Madeleine Houser
+    <div>
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
+
+<!-- This is an HTML comment. -->
