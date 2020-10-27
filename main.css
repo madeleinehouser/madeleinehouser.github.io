@@ -1,0 +1,96 @@
+/* CSS comments are just like multi-line Javascript ones.*/
+
+body {
+    font-family: helvetica;
+}
+
+ul {
+    font-family: monospace;
+}
+
+form {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+button {
+    font-size: 16px;
+       /* background-color: #4CAF50; /* Green */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#Cyan {
+    background-color: cyan;
+}
+#Magenta {
+    background-color: magenta;
+}
+#Yellow {
+    background-color: yellow;
+}
+#Red {
+    background-color: red;
+}
+#Green {
+    background-color: green;
+}
+#Blue {
+    background: Blue;
+}
+
+#CMY {
+    display: none;
+}
+#RGB {
+    display: none;
+}
+#Tertiary {
+    display: none;
+}
+#Complements {
+    display: none;
+}
+#Split {
+    display: none;
+}
+#Analogous {
+    display: none;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#date  {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#name {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+
+}
